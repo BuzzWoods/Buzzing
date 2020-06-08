@@ -43,9 +43,13 @@ const router = new VueRouter({
 })
 
 router.beforeEach((to, from, next)=>{
-  console.log(to)
+  console.log(from)
   next()
 })
 
+router.beforeResolve((to, from, next)=>{
+  console.log(to)
+  next()
+})
 
 export default router
