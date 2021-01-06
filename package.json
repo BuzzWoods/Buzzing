@@ -9,7 +9,7 @@
   "dependencies": {
     "@packy-tang/vue-tinymce": "^1.1.0",
     "@tinymce/tinymce-vue": "^3.2.2",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "tinymce": "^5.3.1",
     "tinymce-imageupload": "^1.0.7",
